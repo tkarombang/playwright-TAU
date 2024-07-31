@@ -1,0 +1,17 @@
+{
+  "name": "test-automation-university",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "npx playwright test tests/",
+    "test:e2e:three": "npx playwright test tests --workers 3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.0.0"
+  }
+}
